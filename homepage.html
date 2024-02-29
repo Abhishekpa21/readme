@@ -62,6 +62,22 @@
   border: none;
   cursor: pointer;
 }
+    .bot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #0074D9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    align-content: center;
+}
+            
+.bot:hover,h1 {
+    transform: scale(1.1);
+}
 </style>
 <body>
     <header>
@@ -96,8 +112,15 @@
             <p>Schedule an appointment online with over 100,000 doctors. Or we can help you find one.</p>
             </div>
         </center>
+        <div class="bot">
+            <button>
+            <a href="https://mediafiles.botpress.cloud/3daf58b3-e03b-4754-86db-bd447f111fbc/webchat/bot.html">
+            <i class="fa-solid fa-robot">
+            </i>
+            </button>
+            </a>
+        </div>
         </section>
-        <script src="seach.js"></script>
     </main>
 </body>
 </html>
