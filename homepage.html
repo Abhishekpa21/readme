@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MD.com</title>
+    <script src="https://kit.fontawesome.com/5acea3036b.js" crossorigin="anonymous"></script>
+</head>
+<style>
+ .{
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url(medical.jpg);
+    }
+
+    header{
+    background-image: url("banner.jpg");
+    color: white;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 70px;
+    width: 100%;
+    }
+    button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #09478a;
+    }
+    .search-form {
+  position: relative;
+}
+
+.search-form input {
+  padding-right: 30px;
+}
+
+.search-form button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+</style>
+<body>
+    <header>
+        <h1>Medical Clinic</h1>
+        <nav>
+            <ul>
+                <li><a href="doctor.html">Find a Doctor</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="appointment.html">appointment</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="socialicon">
+
+            <i class="fa-brands fa-instagram" style="background: linear-gradient(  #f9ce34,  #ee2a7b,#6228d7); border-radius: 7px;"></i>
+        </div>
+    </header>
+    <main>
+    <center>
+        <section>
+            <div class="search-section">
+            <h1>Find</h1>
+            <p>Search over 880,000 doctors by specialty, location, insurance, and more.</p>
+                <input type="text" placeholder="FIND A DOCTOR" id="search-input">
+                <a href="doctor.html">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                </a>
+                  </form>
+            </div>
+            <div class="book-section">
+            <h1>Book Your Appointment Now</h1>
+            <p>Schedule an appointment online with over 100,000 doctors. Or we can help you find one.</p>
+            </div>
+        </center>
+        </section>
+        <script src="seach.js"></script>
+    </main>
+</body>
+</html>
